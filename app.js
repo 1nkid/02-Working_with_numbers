@@ -10,7 +10,7 @@ const myHex = 0x28;
 console.log(myBin, myOct, myDec, myHex); */
 
 //Century from year
-function getCentury(year) {
+/* function getCentury(year) {
   if (year === 0) {
     return year + 1;
   }
@@ -22,4 +22,42 @@ function getCentury(year) {
   }
 }
 
-console.log(getCentury(0));
+console.log(getCentury(0)); */
+
+//Convert currency
+/* function convertCurrency (amount, exchangeRate, currencyName) {
+
+  if (amount <=0 || exchangeRate <= 0) {
+    return 'Enter valid data';
+  }  
+
+  let x = amount * exchangeRate;
+  if (Number.isInteger(x) !== true) {
+    x = x.toFixed(2);
+  }
+  
+  return `Give them ${x} ${currencyName}('s)`;
+
+}
+console.log(convertCurrency(1000, 0.037, 'dollar')) */
+
+//Get ractangle area
+/* function getReactangleArea(side, diagonal) {
+
+  if (side >= diagonal || side <= 0) {
+    return 'not rectangle';
+  }
+
+  const x = side * Math.sqrt(diagonal ** 2 - side ** 2);
+  return +x.toFixed(2);
+  
+}
+
+console.log(getReactangleArea(10, 20));
+
+console.log(2) */
+
+let getString = () => {
+  const greetings = 'Hello...'
+  return greetings;
+}
