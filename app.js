@@ -57,7 +57,23 @@ console.log(getReactangleArea(10, 20));
 
 console.log(2) */
 
-let getString = () => {
+/* let getString = () => {
   const greetings = 'Hello...'
   return greetings;
+} */
+
+//Is even
+/* function isEven(number) {
+
+  if (number % 2 === 0){
+    return true;
+  } else {return false}
+
+}
+
+console.log(isEven(16)); */
+
+//Make decision
+function makeDecision(fuelRemaining, distance, fuelConsuption) {
+
 }
